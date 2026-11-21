@@ -1,0 +1,17 @@
+{
+  "name": "porhub-api",
+  "version": "1.0.2",
+  "description": "Adult video API (Eporner + XHamster) fixed for Vercel",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "Inside4ndroid Studios Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "express": "^4.18.2"
+  }
+}
